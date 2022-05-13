@@ -1,0 +1,10 @@
+body     { color: #b3b8cd;background-color: #231e39; margin-top: auto;}
+input[type = file] { background-color: #231e39;margin-left: auto; margin-top: auto; margin-right: auto; display: flex;}
+input[type = submit] {transition: .5s;color:#03bfbc;background-color: #231e39 ;margin-left: auto; margin-top: auto; margin-right: auto; display: flex;}
+label1 {text-align: center; font-weight: bold; font-family: san-serif; color: 	#7289DA; font-size: 26px; margin-left: auto; margin-top: auto; margin-right: auto; display: flex ;}
+button {color: #03bfbc;background-color: #231e39;margin-top: 4%}
+label2 {text-align: center}
+textarea {color:#03bfbc; background-color:#b3b8cd}
+label {background-color: #231e39; color: #b3b8cd; margin-left: 47%; margin-top: auto; margin-right: 40%; display: flex;}
+.browse {background-color: #231e39; transition: .5s; margin-top:50%}
+form {margin-top: 20%;}

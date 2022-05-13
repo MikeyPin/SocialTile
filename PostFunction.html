@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <label1><h1> SocialTile</h1></label>
+</header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Post function</title>
+  <link href="JohnCSS.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<label2><h2> Post content (Picture - Video - Text)</h2> </label>
+    <form method ="post" action="postsuccessful.html" >
+    <label3>Choose a file to upload</label1>
+    <input type="file" class="browse" id="file1" name = "filename" onchange="PreviewImage();"/>
+    <label>Type something.</label>
+        <textarea id="text1" name="textbox" rows="10" cols="50">
+        </textarea>
+    <input type = "submit" value = Post>
+    </form>
+    <button onclick="history.back()">Go Back</button>
+</body>
+
+</html>
