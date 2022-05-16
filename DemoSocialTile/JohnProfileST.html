@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<!-- Navigation component -->
+<div class="topnav">
+    <a class="active" href="HomePageSocialTiles.html">Home</a>
+  </div>
+
+
+
+<div class="container">
+      <div class="cover-photo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Autumn_Colours_-_Stourhead_-_geograph.org.uk_-_1044997.jpg" class="profile">
+      </div>
+      <div class="profile-name">John Pham</div>
+      <br>
+      <div class="tile-about"><b>About Me</b></div>
+      <p class="tile-info">Birthday: December 24</p>
+      <p class="tile-info">Location: San Jose, CA</p>
+      <p class="tile-info">Workplace: Unemployed</p>
+      <p class="about">Student at San Jose State University</p>
+      <button class="msg-btn">Message</button>
+      <button class="follow-btn">Follow</button> 
+    </div>
+
+<div class="container">
+    <div class="tile-text">Singing</div>
+      <img src="https://api.time.com/wp-content/uploads/2019/09/karaoke-mic.jpg" class="landscape-upload">
+    </div>
+
+<div class="container">
+    <div class="tile-text">Music</div>
+      <img src="https://api.time.com/wp-content/uploads/2018/04/listening-to-music-headphones.jpg?quality=85&w=1200&h=628&crop=1" class="landscape-upload">
+    </div>
+
+<div class="container">
+    <div class="tile-text">Games</div>
+      <img src="https://media.cnn.com/api/v1/images/stellar/prod/pc-games-lead.jpg?c=16x9&q=h_270,w_480,c_fill" class="portrait-upload">
+    </div> 
+<style> 
+  .topnav a.active {
+  background-color: #be89ea;
+  color: white;
+  border-radius: 10px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+    body{
+        font-family: Montserrat, sans-serif;
+        background: #28223f;
+      }
+      .container{
+        user-select: none;
+        margin: 50px auto;
+        background: #231e39;
+        color: #b3b8cd;
+        border-radius: 5px;
+        width: 500px;
+        text-align: center;
+        box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+
+      }
+      .cover-photo{
+        background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Parque_Eagle_River%2C_Anchorage%2C_Alaska%2C_Estados_Unidos%2C_2017-09-01%2C_DD_02.jpg/800px-Parque_Eagle_River%2C_Anchorage%2C_Alaska%2C_Estados_Unidos%2C_2017-09-01%2C_DD_02.jpg);
+        height: 160px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+      }
+      .profile{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin-top: 70px;
+        margin: center;
+        border: 1px solid #1f1a32;
+        padding: 7px;
+        background: #292343;
+      }
+      .profile-name{
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin: center;
+      }
+      .about{
+        margin-top: 35px;
+        line-height: 21px;
+      }
+      button{
+        margin: 10px 0 40px 0;
+      }
+      .msg-btn, .follow-btn{
+        background: #03bfbc;
+        border: 1px solid #03bfbc;
+        padding: 10px 25px;
+        color: #231e39;
+        border-radius: 3px;
+        font-family: Montserrat, sans-serif;
+        cursor: pointer;
+      }
+      .follow-btn{
+        margin-left: 10px;
+        background: transparent;
+        color: #02899c;
+      }
+      .follow-btn:hover{
+        color: #231e39;
+        background: #03bfbc;
+        transition: .5s;
+      }
+      .container i{
+        padding-left: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: .5s;
+      }
+      .container i:hover{
+        color: #03bfbc;
+}
+      .tile{
+        user-select: none;
+        margin: 100px auto;
+        background: #231e39;
+        color: #b3b8cd;
+        border-radius: 5px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+        padding: 15px;
+      }
+      .tile-about{
+        font-size: 16px;
+      }
+      .tile-info{
+        font-size: 14px;
+      }
+      .landscape-upload{
+        width: 390px;
+        height: 252px;
+        margin-bottom: 10px;
+      }
+      .portrait-upload{
+        width: 392px;
+        height: 290px;
+        margin-bottom: 15px;
+      }
+      .tile-text{
+        font-size: 18px;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+      }
+</style>

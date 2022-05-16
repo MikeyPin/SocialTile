@@ -1,0 +1,9 @@
+{
+    "userdetail":[{
+        "email": "testing@gmail.com",
+        "password": "hello240"
+    },{
+        "email": "Dog@gmail.com",
+        "password": "wowswear123"
+    }]
+}

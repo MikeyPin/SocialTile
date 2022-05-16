@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="SocialTileV1Css.css" />
+</head>
+
+<body>
+  <div class="login-page">
+    <form method="post" action="HomePageSocialTiles.html" class="form">
+
+      <!-- <label for="fname">First Name</label>
+        <input type="firstname" id = "fname"required />
+
+        <label for="lname">Last Name</label>
+        <input type="lastname" id="lname"  required /> -->
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required maxlength="50" />
+
+      <label for="pw">Password</label>
+      <input type="password" id="password" required />
+
+      <label for="pw1">Re-Enter Password</label>
+      <input type="password" id="pw2" required />
+
+      <input type="submit" value="Login" onclick="send()" />
+      </form>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+  <script src="./STLogin.js"></script>
+</body>
+
+</html>

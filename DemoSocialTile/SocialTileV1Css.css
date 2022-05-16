@@ -1,0 +1,230 @@
+
+body 
+{
+     background-color:	#3294e5;
+     /* old background #28223f; */
+}
+
+.login-page 
+{
+  width: 100%;
+  margin-top: 10%;
+}
+.Settinglogin-page 
+{
+  
+  text-align: center;
+  padding: 250px;
+  
+}
+.form /*Create login form box in the center of page*/
+{
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(27, 130, 215);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label /*Displays email, username, password label*/
+{
+  font-weight: bold;
+  font-family: sans-serif;
+  color: 	#7289DA;
+  padding-top: 10px;
+}
+input[type="submit"] /*Creates submit button*/
+{
+  padding: 10px;
+  background-color:	#7289DA;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+button[type="submit"] /*Creates submit button*/
+{
+  padding: 10px;
+  background-color:	#7289DA;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.label1
+{
+  font-weight: bold;
+  font-family: san-serif;
+  color: 	#7289DA;
+  font-size: 26px;
+  text-align: center;
+}
+
+.center
+{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    word-spacing: 2.5px;
+    margin: 50px;
+    flex-direction: row; 
+    border: solid;
+    border-width: 6px thick;
+    border-color: #0687f0;
+    background-color: #7289DA;
+    
+
+
+}
+.label /*Displays email, username, password label*/
+{
+  font-weight: bold;
+  font-family: sans-serif;
+  color: 	#27beec;
+  padding-top: 10px;
+}
+
+.landing-page{
+  background-color: rgb(31, 175, 194);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -60%);
+  width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  
+  
+}
+/* this is to create a button look from the internet  */
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+#signUp, #LPLogin{
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 5px rgb(16, 39, 89);
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px;
+  border:none;
+
+}
+#login{
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 5px rgb(16, 39, 89);
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px;
+
+}
+/* orginal color rgb(16, 39, 89) */
+h2{
+  font-style: italic;
+  color: #0687f0;
+}
+#email, #password, #fname, #lname, #pw, #pw2, #email1{
+  background-color: rgb(255, 251, 251);
+  padding: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* cover photo aka blue background */ 
+.cover-photo{
+  background: url(https://image.shutterstock.com/image-vector/pink-blue-purple-gradient-mesh-260nw-783593947.jpg);
+  height: 160px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.container{
+  user-select: none;
+  margin: 350px auto;
+  background: #231e39;
+  color: #b3b8cd;
+  border-radius: 5px;
+  width: 694px;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+  
+}
+.SecondLogin {   /*this is my second login that user will click to enter the Homepage */
+  width: 300px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+ 
+}
+#email1{
+  background-color: rgb(255, 251, 251);
+  padding: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+.body{
+  font-family: Montserrat, sans-serif;
+  background: #28223f;
+}
+
+#SettingEmail{
+  text-align: center;
+  color: aqua;
+}
+#Semail, #Spassword{
+  background-color: rgb(255, 251, 251);
+  padding: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: auto;
+}
+
+.SettingCenter{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  word-spacing: 2.5px;
+  margin: 50px;
+  flex-direction: column; 
+}
+
+#centerbutton{
+  position: absolute;
+  top:50%;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}

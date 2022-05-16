@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<!-- Navigation component -->
+<div class="topnav">
+  <a class="active" href="HomePageSocialTiles.html">Home</a>
+</div>
+
+<div class="container">
+      <div class="cover-photo">
+        <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/276995057_5973455732669995_1595501668762189458_n.jpg?_nc_cat=107&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=YfPK98mDKX0AX858dS1&tn=kTh1Ct0C2ZcwD-sJ&_nc_ht=scontent-sjc3-1.xx&oh=00_AT--fOFVVnFL6RexDxziFKpRS-Pe2PlwladU2n1iZvEZfA&oe=6285989A" class="profile">
+      </div>
+      <div class="profile-name">Xiao Wen Huang</div>
+      <br>
+      <div class="tile-about"><b>About Me</b></div>
+      <p class="tile-info">Birthday: April 13</p>
+      <p class="tile-info">Hometown: Curaçao, Dutch Caribbean</p>
+      <p class="tile-info"></p>
+      <p class="about">Senior MIS Student at San Jose State University</p>
+      <button class="msg-btn">Message</button>
+      <button class="follow-btn">Follow</button> 
+    </div>
+
+<div class="container">
+    <div class="tile-text">Willemstad Tile</div>
+      <img src="https://www.sandals.com/blog/content/images/2021/08/Willemstad.jpg" class="landscape-upload">
+    </div>
+
+<div class="container">
+    <div class="tile-text">Playa Kenepa Grandi Tile</div>
+      <img src="https://curacaotogo.com/wp-content/uploads/grote-knip5.jpg" class="landscape-upload">
+    </div>
+
+<div class="container">
+    <div class="tile-text">Klein Curacao Tile</div>
+      <img src="https://www.stylishtraveltips.com/wp-content/uploads/2021/07/MissAnnboattrips_1kl.jpg" class="landscape-upload">
+    </div>
+
+<style>
+  .topnav a.active {
+  background-color: #be89ea;
+  color: white;
+  border-radius: 10px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} 
+    body{
+        font-family: Montserrat, sans-serif;
+        background: #28223f;
+      }
+      .container{
+        user-select: none;
+        margin: 50px auto;
+        background: #231e39;
+        color: #b3b8cd;
+        border-radius: 5px;
+        width: 500px;
+        text-align: center;
+        box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+        
+      }
+      .cover-photo{
+        background: url(https://ak.picdn.net/shutterstock/videos/1018020805/thumb/1.jpg);
+        height: 160px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+      }
+      .profile{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin-top: 70px;
+        margin: center;
+        border: 1px solid #1f1a32;
+        padding: 7px;
+        background: #292343;
+      }
+      .profile-name{
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin: center;
+      }
+      .about{
+        margin-top: 35px;
+        line-height: 21px;
+      }
+      button{
+        margin: 10px 0 40px 0;
+      }
+      .msg-btn, .follow-btn{
+        background: #03bfbc;
+        border: 1px solid #03bfbc;
+        padding: 10px 25px;
+        color: #231e39;
+        border-radius: 3px;
+        font-family: Montserrat, sans-serif;
+        cursor: pointer;
+      }
+      .follow-btn{
+        margin-left: 10px;
+        background: transparent;
+        color: #02899c;
+      }
+      .follow-btn:hover{
+        color: #231e39;
+        background: #03bfbc;
+        transition: .5s;
+      }
+      .container i{
+        padding-left: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: .5s;
+      }
+      .container i:hover{
+        color: #03bfbc;
+      }
+      .tile{
+        user-select: none;
+        margin: 100px auto;
+        background: #231e39;
+        color: #b3b8cd;
+        border-radius: 5px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+        padding: 15px;
+      }
+      .tile-about{
+        font-size: 16px;
+      }
+      .tile-info{
+        font-size: 14px;
+      }
+      .landscape-upload{
+        width: 390px;
+        height: 292px;
+        margin-bottom: 10px;
+      }
+      .portrait-upload{
+        width: 292px;
+        height: 390px;
+        margin-bottom: 15px;
+      }
+      .tile-text{
+        font-size: 18px;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+      }
+</style>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SettingsV2</title>
+    <link rel="stylesheet" href="SocialTileV1Css.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="HomePageSocialTiles.html">Home</a>
+
+      <form method="post" action="PostSuccessful.html" class="form">
+        <label for="email">Email</label>
+        <input type="email" id="email" required maxlength="50" />
+
+        <label for="pw">Password</label>
+        <input type="password" id="pw" required />
+
+        <label for="pw">New Password</label>
+        <input type="password" id="pw" required />
+
+        <label for="pw1">Re-type Password</label>
+        <input type="password" id ="pw2"required />    
+        <input type="submit" value="Confirm" />
+      </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+  <script src="./STLogin.js"></script>
+  <style>
+    .topnav a.active {
+        background-color: #be89ea;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    body {
+        font-family: Montserrat, sans-serif;
+        background: #28223f;
+    }
+
+    .container {
+        user-select: none;
+        margin: 50px auto;
+        background: #231e39;
+        color: #b3b8cd;
+        border-radius: 5px;
+        width: 500px;
+        text-align: center;
+        box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .75);
+
+    }
+
+    .cover-photo {
+        background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Parque_Eagle_River%2C_Anchorage%2C_Alaska%2C_Estados_Unidos%2C_2017-09-01%2C_DD_02.jpg/800px-Parque_Eagle_River%2C_Anchorage%2C_Alaska%2C_Estados_Unidos%2C_2017-09-01%2C_DD_02.jpg);
+        height: 160px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .profile {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin-top: 70px;
+        margin: center;
+        border: 1px solid #1f1a32;
+        padding: 7px;
+        background: #292343;
+    }
+
+    .profile-name {
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin: center;
+    }
+
+    .about {
+        margin-top: 35px;
+        line-height: 21px;
+    }
+
+    button {
+        margin: 10px 0 40px 0;
+    }
+
+    .msg-btn,
+    .follow-btn {
+        background: #03bfbc;
+        border: 1px solid #03bfbc;
+        padding: 10px 25px;
+        color: #231e39;
+        border-radius: 3px;
+        font-family: Montserrat, sans-serif;
+        cursor: pointer;
+    }
+
+    .follow-btn {
+        margin-left: 10px;
+        background: transparent;
+        color: #02899c;
+    }
+
+    .follow-btn:hover {
+        color: #231e39;
+        background: #03bfbc;
+        transition: .5s;
+    }
+
+    .container i {
+        padding-left: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .container i:hover {
+        color: #03bfbc;
+    }
+
+    .tile {
+        user-select: none;
+        margin: 100px auto;
+        background: #231e39;
+        color: #b3b8cd;
+        border-radius: 5px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .75);
+        padding: 15px;
+    }
+
+    .tile-about {
+        font-size: 16px;
+    }
+
+    .tile-info {
+        font-size: 14px;
+    }
+
+    .landscape-upload {
+        width: 390px;
+        height: 252px;
+        margin-bottom: 10px;
+    }
+
+    .portrait-upload {
+        width: 392px;
+        height: 290px;
+        margin-bottom: 15px;
+    }
+
+    .tile-text {
+        font-size: 18px;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+    }
+</style>
+  </body>
+</html>
